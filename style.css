@@ -29,13 +29,14 @@ body {
     min-width: 25vw;
     min-height: 80vh;
     border-radius: 12px;
-    padding: 40px;
+    padding: 30px;
     gap: 1px;
 }
 
 .card-image {
     border-radius: 100%;
     width: 100px;
+    padding: 10px;
 }
 
 .card-profile {
@@ -53,6 +54,10 @@ body {
 .card-profile-location {
     color: hsl(75, 94%, 57%);
     font-weight: 500;
+}
+
+.card-caption {
+    margin-top: 20px;
 }
 
 .card-link-hub {
