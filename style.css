@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    min-height: 100vh;
+}
+
+.card {
+    font-size: 12px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    min-width: 25vw;
+    min-height: 80vh;
+    border-radius: 12px;
+    padding: 40px;
+    gap: 1px;
+}
+
+.card-image {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.card-profile {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.card-profile-name {
+    font-weight: 600;
+}
+
+.card-profile-location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 500;
+}
+
+.card-link-hub {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.link-item {
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.link-item:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
